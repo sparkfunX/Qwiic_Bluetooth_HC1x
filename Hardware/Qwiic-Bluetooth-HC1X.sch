@@ -2536,7 +2536,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="0603" package="0603">
+<device name="-0603-6.3V-(10%)" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9591,7 +9591,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <vertex x="6.35" y="-8.25" curve="-90"/>
 <vertex x="6.75" y="-7.9"/>
 </polygon>
-<smd name="9" x="6.6" y="2.25" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="16" x="6.6" y="2.25" dx="1.5" dy="1" layer="1" rot="R180"/>
 <polygon width="0.001" layer="51">
 <vertex x="6.75" y="-6.25"/>
 <vertex x="5.85" y="-6.25"/>
@@ -9655,13 +9655,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <vertex x="6.35" y="2.25" curve="-90"/>
 <vertex x="6.75" y="2.6"/>
 </polygon>
-<smd name="10" x="6.6" y="0.75" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="11" x="6.6" y="-0.75" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="12" x="6.6" y="-2.25" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="13" x="6.6" y="-3.75" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="14" x="6.6" y="-5.25" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="15" x="6.6" y="-6.75" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="16" x="6.6" y="-8.25" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="15" x="6.6" y="0.75" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="14" x="6.6" y="-0.75" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="13" x="6.6" y="-2.25" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="12" x="6.6" y="-3.75" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="11" x="6.6" y="-5.25" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="10" x="6.6" y="-6.75" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="9" x="6.6" y="-8.25" dx="1.5" dy="1" layer="1" rot="R180"/>
 <wire x1="-6.877" y1="9.377" x2="-6.877" y2="3.45" width="0.2032" layer="21"/>
 <wire x1="6.75" y1="9.25" x2="-6.75" y2="9.25" width="0.002540625" layer="51"/>
 <wire x1="6.877" y1="3.45" x2="6.877" y2="9.377" width="0.2032" layer="21"/>
@@ -9918,7 +9918,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP7" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO3" library="SparkX" deviceset="SPARKX-LOGO" device="4"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="LOGO2" library="SparkX" deviceset="SPARKX-LOGO" device="3" value="SPARKX-LOGO3"/>
+<part name="LOGO2" library="SparkX" deviceset="SPARKX-LOGO" device="4" value="SPARKX-LOGO4"/>
 <part name="JP8" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP6" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -9943,7 +9943,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="4.7uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
@@ -9960,7 +9960,7 @@ Software configurable as well</text>
 <text x="73.533" y="179.451" size="1.778" layer="97">I2C Pull Ups</text>
 <text x="2.54" y="182.88" size="3.81" layer="97" ratio="15" align="top-left">ATtiny85</text>
 <text x="165.354" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
-<text x="237.744" y="7.366" size="2.54" layer="94">X01</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">X02</text>
 <text x="204.343" y="136.271" size="1.778" layer="97" rot="R90">Power</text>
 <text x="9.398" y="40.64" size="1.778" layer="97" align="top-left">Key-select provides KEY button support 
 for both BLE-4.0 modules (e.g. HM-11) 
